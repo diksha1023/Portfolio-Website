@@ -70,6 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-To update the home section - "Hello, I'm", update it in the Home.js file
+To update the home section - "Hello, I'm", update it in the Home.js file.
 
 Add the resume in the 'Home' directory.

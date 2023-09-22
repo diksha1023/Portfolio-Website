@@ -1,0 +1,80 @@
+.project-list{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
+    box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
+
+}
+
+.project-list-opened{
+    border-left: 5px solid blueviolet;
+}
+
+.project-list:hover{
+    border-left: 5px solid blueviolet;
+    transition-duration: 1s;
+    cursor: pointer;
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+
+
+}
+
+
+.title-and-collapse-option{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.tech-used-in-project{
+    margin-top: 20px;
+    margin: 5px;
+}
+
+.tech-used-in-project p:hover{
+    background-color: black;
+}
+
+.tech-used-in-project p{
+    background-color: tomato;
+    color: white;
+    border-radius: 90px;
+    padding: 8px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.live-demo-button {
+    background-color: brown;
+    border-radius: 90px;
+    color: white;
+    width: fit-content;
+    margin:5px;
+    padding: 10px;
+
+}
+
+.live-demo-button:hover{
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.live-demo-button a {
+    text-decoration: None;
+    color: white;
+    padding: 10px;
+   
+}
+
+.description{
+    margin: 9px;
+    text-align: justify;
+    margin-right: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

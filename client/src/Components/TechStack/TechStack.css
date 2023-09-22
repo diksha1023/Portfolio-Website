@@ -1,11 +1,13 @@
 .techstack-section{
     margin-top: 40px;
     height: auto;
+    margin-bottom: 40px;
 
 }
 
 .section-title h5{
     text-align: center;
+    
 
 }
 
@@ -26,6 +28,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.tech-content-marked{
+    background-color: tomato ;
+    color: white;
+}
+
 .tech-content:hover{
     background-color: #FF854C;
     color: white;
@@ -36,4 +43,40 @@
     -moz-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
     box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
 
+}
+
+.tech-number {
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+    line-height: 50px;
+}
+
+.load-more-tech-stack{
+    background-color: green;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.load-more-tech-stack:hover{
+    background-color: rgb(59, 191, 59);
+    width: 170px;
+    transition-duration: 1s;
+    font-weight: bold;
 }

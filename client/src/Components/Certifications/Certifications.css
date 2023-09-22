@@ -1,0 +1,111 @@
+.certifications-section{
+    margin-top: 70px;
+    height: 60vh;
+}
+
+.content-slider-main{
+    margin-top: 30px;
+}
+
+.content-slider{
+    padding: 10px;
+    color: white;
+    background-color: #FF1042;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 210px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.content-slider:hover{
+    background-color: #4B088A ;
+    color: white;
+    transition-duration: 1s;
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+
+}
+
+.content-slider img.center-image{
+    border-radius: 90px;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-top: -36px;
+    line-height: 50px;
+    align-items: center;
+    border: 5px solid yellow;
+
+}
+
+
+.slick-prev:before{
+
+    color: #ff1042!important;;
+    font-size: 30px;
+}
+
+.slick-next:before{
+
+    color: #ff1042!important;;
+    font-size: 30px;
+}
+
+.credentials-btn {
+    
+    background-color: white;
+    border-radius: 90px;
+    color: black;
+    width: fit-content;
+    margin:auto;
+    padding: 10px;
+    border-color: 5 px solid black;
+    font-weight: bold;
+    
+}
+
+.credentials-btn:hover{
+    background-color: rgb(183, 183, 183);
+    color: rgb(65, 65, 124);
+    transition-duration: 1s;
+}
+
+.credentials-btn a {
+    text-decoration: None;
+    color: black;
+    padding: 10px;
+   
+} 
+
+/* .live-demo-button {
+    background-color: brown;
+    border-radius: 90px;
+    color: white;
+    width: fit-content;
+    margin:5px;
+    padding: 10px;
+
+}
+
+.live-demo-button:hover{
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.live-demo-button a {
+    text-decoration: None;
+    color: white;
+    padding: 10px;
+   
+} */
+/* .slick-disable{
+    pointer-events: none;
+} */

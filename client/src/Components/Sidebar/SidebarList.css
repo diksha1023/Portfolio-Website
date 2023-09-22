@@ -18,6 +18,7 @@
     list-style-type: none;
     cursor: pointer;
     margin-top:30px;
+    
 
 }
 
@@ -35,3 +36,14 @@
 .navbar-items-only-icons ul li svg{
     margin-left: 10px;
 }
+
+
+.navbar-items ul li a{
+    text-decoration: none;
+}
+.nav-item .active{
+    border-left: 2px solid yellow;
+    color: yellow;
+
+}
+
