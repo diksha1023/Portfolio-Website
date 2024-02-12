@@ -21,6 +21,15 @@
     
 }
 
+#dark .content-slider{
+    background-color:  #38004C;
+    color: white;
+    -webkit-box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.34);
+    /* box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.34); */
+    box-shadow: 0px 0px 56px -26px rgba(255,255,255,0.34);
+}
+
 .content-slider:hover{
     background-color: #4B088A ;
     color: white;

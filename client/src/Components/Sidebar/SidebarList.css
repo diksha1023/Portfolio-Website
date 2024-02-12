@@ -42,8 +42,19 @@
     text-decoration: none;
 }
 .nav-item .active{
-    border-left: 2px solid yellow;
+    position: relative; /* Ensures the pseudo-element is positioned relative to this element */
+    border-left: 1px solid yellow;
+    border-right: 10px solid yellow;
+    border-top: 4px solid yellow;
+    border-bottom: 12px solid yellow;
     color: yellow;
+    background-color: yellow;
+    opacity: 0.7;
+    /* border-left: 2px solid yellow;
+    color: yellow;
+    background-color: yellow;
+    opacity: 0.7; */
+    
 
 }
 

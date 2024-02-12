@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { FaExternalLinkAlt } from "react-icons/fa";
+import Zoom from 'react-reveal/Zoom';
 
 const Certifications = () => {
 
@@ -99,10 +100,23 @@ const Certifications = () => {
         ]
     };
 
+    const colors = [
+        "#1F618D",
+        'rgb(33, 150, 243)',
+        'rgb(233, 30, 99)',
+        'rgb(16, 204, 82)',
+        "#4B088A",
+        "#FF6347",
+        "#FF1042",
+        "#FF8042"
+
+
+    ];
+
     return (
         <div className="container certifications-section" id="certifications">
             <div className='section-title'>
-                <h5>Certifications</h5>
+                <h3>Certifications</h3>
                 <span className='line'></span>
             </div>
 
@@ -113,8 +127,9 @@ const Certifications = () => {
 
                     {data.map((item, index) => (
 
+                        <Zoom>
                         <div className='content-slider-main'>
-                            <div className='content-slider' key={index}>
+                            <div className='content-slider' key={index} style={{backgroundColor: colors[index]}}>
 
                                 <img src={item.img} atl="Certification img" className='center-image'>
 
@@ -132,6 +147,7 @@ const Certifications = () => {
 
 
                         </div>
+                        </Zoom>
 
                     ))}
 

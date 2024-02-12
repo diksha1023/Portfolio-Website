@@ -1,24 +1,40 @@
 import React ,{useState} from 'react'
 import "./TechStack.css"
 
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
 const TechStack = () => {
 
     const data = [
         {
-            name: "Full Stack Developer"
+            name: "Python"
         },
         {
             name: "Java"
         },
         {
-            name: "PostGreSql"
-        },
-        {
-            name: "Python"
+            name: "System Design"
         },
         {
             name: "JavaScript"
         },
+        {
+            name: "PostGreSql"
+        },
+        {
+            name: "MongoDB"
+        },
+        {
+            name: "Microsoft Azure"
+        },
+        {
+            name: "Amazon Web Services"
+        },
+        {
+            name: "SQL"
+        },
+        
         {
             name: "Node.js"
         },
@@ -29,8 +45,14 @@ const TechStack = () => {
             name: "React"
         },
         {
-            name: "Amazon Web Services"
-        }
+            name: "Groovy"
+        },
+        {
+            name: "Git"
+        },
+        {
+            name: "GitHub"
+        },
 
     ]
 
@@ -63,7 +85,7 @@ const TechStack = () => {
         <div className='container techstack-section ' id="techStack">
 
             <div className='section-title'>
-                <h5>Tech Stack</h5>
+                <h3>Tech Stack</h3>
                 <span className='line'></span>
 
             </div>
@@ -73,6 +95,8 @@ const TechStack = () => {
             <div className='row'>
 
                 {data.slice(0,showMoreTechStack).map((item, index) => (
+
+                    <Fade right>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
 
                         <div className={index===0?"tech-content-marked tech-content":"tech-content"}>
@@ -85,14 +109,20 @@ const TechStack = () => {
 
 
                     </div>
+                    </Fade>
                 ))}
             </div>
 
+
+
             {showMoreTechStack >= data.length ? null:(
+                <Zoom>
                 <span className='load-more-tech-stack' onClick={loadMore}>
                 Load More
             </span>
+            </Zoom>
             )}
+            
             
 
         </div>

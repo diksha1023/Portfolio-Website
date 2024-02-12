@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectList from './ProjectList'
 import "./Project.css"
+import Zoom from 'react-reveal/Zoom';
+
 
 const Project = () => {
 
@@ -60,10 +62,12 @@ const Project = () => {
 
     ]
   return (
+
+    <Zoom>
     <div className='container' id="projects">
 
         <div className='section-title'>
-            <h5>Projects</h5>
+            <h3>Projects</h3>
             <span className='line'></span>
         </div>
 
@@ -83,6 +87,7 @@ const Project = () => {
         </div>
     
       </div>
+      </Zoom>
   )
 }
 

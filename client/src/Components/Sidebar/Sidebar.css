@@ -14,13 +14,6 @@
     width: 230px;
 }
 
-.container-fluid{
-    padding-left: 0px!important;
-    padding-right: 0p!important;
-    overflow: hidden;
-
-}
-
 
 .icon-for-sidebar-expand-and-collapse{
     display: flex;
@@ -36,6 +29,15 @@
     border-radius: 5px;
     margin-top:50px;
 }
+
+.container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0p!important;
+    overflow: hidden;
+
+}
+
+
 
 @media (max-width:1000px) {
 

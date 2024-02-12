@@ -6,7 +6,7 @@ import { FcHome, FcBusinesswoman, FcOrganization, FcVoicePresentation, FcGraduat
 
 import { MdBiotech } from "react-icons/md";
 
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 
 
 

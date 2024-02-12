@@ -41,7 +41,7 @@ const Education = () => {
         <div className='container education-section' id="education">
 
             <div className='section-title'>
-                <h5>Education</h5>
+                <h3>Education</h3>
                 <span className='line'></span>
             </div>
             <br/>

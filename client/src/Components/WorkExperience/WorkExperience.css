@@ -1,5 +1,6 @@
 .work-experience-section{
     margin-top: 70px;
+    margin-left: 100px;
 
 }
 .timeline-section{
@@ -21,4 +22,8 @@
 
 .date-class{
     color: black;
+}
+
+#dark .date-class{
+    color: white;
 }

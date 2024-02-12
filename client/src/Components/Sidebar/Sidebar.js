@@ -5,7 +5,7 @@ import SidebarList from './SidebarList';
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-const Sidebar = () => {
+const Sidebar = ({theme, changeTheme}) => {
 
     const [expandSidebar, setExpandSidebar] = useState(true);
 
@@ -14,7 +14,9 @@ const Sidebar = () => {
     }
   return (
     <div className='container-fluid sidebar-section'>
-        <div className={expandSidebar ? "sidebar-expand sidebar": "sidebar"} >
+        {/* Initially */}
+        {/* <div className={expandSidebar ? "sidebar-expandsidebar": " sidebar"} ></div> */}
+        <div className={!expandSidebar ? "sidebar": "sidebar-expand sidebar"} >
 
             <div className='icon-for-sidebar-expand-and-collapse'>
 
@@ -36,7 +38,7 @@ const Sidebar = () => {
         </div>
 
         <div className='container'>
-            <Home/>
+            <Home changeTheme={changeTheme} theme={theme}/>
 
         </div>
 
